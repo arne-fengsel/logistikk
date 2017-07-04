@@ -1,0 +1,47 @@
+
+http://localhost:9999/logistikk/eier/2
+<eier>
+	<fornavn>Arne</fornavn>
+	<etternavn>Nilsen</etternavn>
+	<eiendel>
+		<id>1</id>
+		<navn>Telefon</navn>
+		<tekniskBeskrivelse>Sony Z1</tekniskBeskrivelse>
+		<beskrivelse>Svart telefon med sprekk i skjerm.</beskrivelse>
+		<opprettelseDato>2015-04-06T18:35:18.140+02:00</opprettelseDato>
+	</eiendel>
+	<eiendel>
+		<id>2</id>
+		<navn>Caps</navn>
+		<tekniskBeskrivelse>Caps</tekniskBeskrivelse>
+		<beskrivelse>Blå caps</beskrivelse>
+		<opprettelseDato>2015-04-06T18:35:18.140+02:00</opprettelseDato>
+	</eiendel>
+</eier>
+<eier>
+	<fornavn>Per</fornavn>
+	<etternavn>Hansen</etternavn>
+	<eiendel>
+		<id>1</id>
+		<eierid>1</eierid>
+		<navn>klokke</navn>
+		<tekniskBeskrivelse>Casio C170</tekniskBeskrivelse>
+		<beskrivelse>Digital klokke med sort plastreim.</beskrivelse>
+		<opprettelseDato>2015-04-06T18:35:18.140+02:00</opprettelseDato>
+	</eiendel>
+	<eiendel>
+		<id>2</id>
+		<eierid>1</eierid>
+		<navn>Belte</navn>
+		<tekniskBeskrivelse>Lærbelte</tekniskBeskrivelse>
+		<beskrivelse>Svart lærbelte med 7 hull. Det er 1m. langt.
+		</beskrivelse>
+	</eiendel>
+</eier>
+
+http://localhost:9999/logistikk/eiendel/2/eier/2
+<eiendel>
+	<navn>Caps</navn>
+	<tekniskBeskrivelse>Caps</tekniskBeskrivelse>
+	<beskrivelse>Svart caps</beskrivelse>
+</eiendel>
